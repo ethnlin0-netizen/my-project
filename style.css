@@ -68,12 +68,15 @@ h1 {
 }
 
 .calcButton {
+    /*These three lines horizontally and vertically center the text*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     height: 60px;
     border-radius: 20px;
-    padding: 16px;
     font-size: 2rem;
-    background: oklch(55.565% 0.2474 275.51);
-    color: linear-gradient(to right, #a855f7, #ec4899);
-    text-align: center;
+    background: linear-gradient(to right, #0b09a0, #3765c8);
+    color: white;
 }
 
