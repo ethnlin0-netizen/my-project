@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 body {
-    background-color: oklch(89.716% 0.06251 328.539);
+    background-color: oklch(92.959% 0.02127 327.856);
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
@@ -14,16 +14,16 @@ h1 {
 .btn {
     display: inline-block;
     text-decoration: none;
-    padding: 30px 50px;
+    padding: 22.5px 37.5px;
     background: linear-gradient(to right, #a855f7, #ec4899);
     color: white;
     border: none;
     border-radius: 8px;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 600;
     cursor: pointer;
     transition: transform 0.1s ease, background 0.2s ease;
-    margin-right: 16px;
+    margin-left: 8px;
 }
 
 .btn:hover {
