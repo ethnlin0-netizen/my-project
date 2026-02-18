@@ -3,6 +3,7 @@ body {
 }
 
 h1 {
-    color: aqua;
-    text-align: center;
+    color: aqua !important;
+    text-align: center !important;
+    font-size: 60px;
 }
