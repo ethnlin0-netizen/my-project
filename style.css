@@ -1,5 +1,5 @@
 body {
-    background: coral;
+    background: oklch(89.716% 0.06251 328.539);
 }
 
 h1 {
@@ -12,8 +12,8 @@ h1 {
     display: inline-block;
     text-decoration: none;
     padding: 12px 20px;
-    background-color: white;
-    color: black;
+    background-color: linear-gradient(to right, #a855f7, #ec4899);
+    color: white;
     border: none;
     border-radius: 8px;
     font-size: 16px;
@@ -23,7 +23,7 @@ h1 {
 }
 
 .btn:hover {
-    background-color: #4338ca;
+    background-color: linear-gradient(to right, #9333ea, #db2777);
 }
 
 .btn:active {
