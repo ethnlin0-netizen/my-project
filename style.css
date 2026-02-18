@@ -67,3 +67,13 @@ h1 {
     text-align: right;
 }
 
+.calcButton {
+    height: 60px;
+    border-radius: 20px;
+    padding: 16px;
+    font-size: 2rem;
+    background: oklch(55.565% 0.2474 275.51);
+    color: linear-gradient(to right, #a855f7, #ec4899);
+    text-align: center;
+}
+
