@@ -33,3 +33,37 @@ h1 {
 .btn:active {
     transform: scale(0.97);
 }
+
+.overlay {
+    position:fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.hidden {
+    display: none;
+}
+
+.calculator {
+    width: 320px;
+    height: 500px;
+    border-radius: 24px;
+    background: #0f172a;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.screen {
+    background: #020617;
+    color: white;
+    height: 80px;
+    border-radius: 12px;
+    padding: 16px;
+    font-size: 2rem;
+    text-align: right;
+}
+
