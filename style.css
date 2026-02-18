@@ -9,9 +9,11 @@ h1 {
 }
 
 .btn {
+    display: inline-block;
+    text-decoration: none;
     padding: 12px 20px;
     background-color: white;
-    color: white;
+    color: black;
     border: none;
     border-radius: 8px;
     font-size: 16px;
