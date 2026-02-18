@@ -87,3 +87,8 @@ h1 {
     gap: 20px;
     justify-content: center;
 }
+
+.operator {
+    height: 30px;
+    width: 40px;
+}
