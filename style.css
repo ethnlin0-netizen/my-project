@@ -100,12 +100,6 @@ h1 {
     justify-content: center;
 }
 
-.lastRow {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 16px;
-}
-
 .operator {
     height: 30px;
     width: 40px;
