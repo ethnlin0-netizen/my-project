@@ -20,13 +20,13 @@ let input = "";
 buttons.forEach(button => {
     button.addEventListener("click", () => {
         const value = button.dataset.value;
-        if(value == "del") {
-            input = input(0, -1);
+        if(value == "clear") {
+            input = "";
         } else if (value == "="){
             try {
-                input = eval(input);
+                input = eval(input); //eval takes string and executes it as code
             } catch {
-                input = "Invalid input";
+                input = "Invalid input!";
             }
         } else {
             input += value;
