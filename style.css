@@ -115,8 +115,8 @@ h1 {
 
 .operatorGrid {
     display: grid;
-    grid-template-columns: repeat(3, 60px);
-    row-gap: 4px;
+    grid-template-columns: repeat(3, 30px);
+    row-gap: 8px;
     column-gap: 16px;
 }
 
