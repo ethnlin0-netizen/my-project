@@ -75,11 +75,12 @@ h1 {
 
     height: 60px;
     width: 80px;
-    border-radius: 20px;
+    border-radius: 30px;
     font-size: 2rem;
     background: #49a7ff;
     color: white;
     margin-top: 20px;
+    margin-left: 20px;
 }
 
 .buttonRow {
