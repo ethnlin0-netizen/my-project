@@ -25,13 +25,14 @@ buttons.forEach(button => {
         } else if (value == "="){
             try {
                 input = eval(input); //eval takes string and executes it as code
+                input = input.toPrecision(5); //have to use toPrecision here since it's still a number
             } catch {
                 input = "Invalid input!";
             }
         } else {
             input += value;
         }
-        screen.textContent = input.toPrecision(5);
+        screen.textContent = input; //input becomes string, so toPrecision will fail
     })
 })
 
