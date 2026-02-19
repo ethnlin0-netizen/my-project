@@ -106,3 +106,16 @@ h1 {
     width: 40px;
     font-size: 16px;
 }
+
+.lastRow {
+    display:flex;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.operatorGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+    grid-template-rows: repeat(2, 60px);
+    gap: 16px;
+}
