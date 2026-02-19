@@ -31,7 +31,7 @@ buttons.forEach(button => {
         } else {
             input += value;
         }
-        screen.textContent = input;
+        screen.textContent = input.toPrecision(5);
     })
 })
 
