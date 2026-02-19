@@ -115,10 +115,13 @@ h1 {
 
 .operatorGrid {
     display: grid;
-    margin-top:0px;
-    margin-bottom:0px;
     grid-template-columns: repeat(3, 60px);
     grid-template-rows: repeat(2, 60px);
     row-gap: 4px;
     column-gap: 16px;
+}
+
+.operatorGrid .calcButton {
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
