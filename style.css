@@ -84,7 +84,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    border-color: white;
     height: 60px;
     width: 80px;
     border-radius: 25px;
